@@ -1,5 +1,7 @@
 <template>
-
+  <div>
+    search.vue
+  </div>
 </template>
 
 <script>
