@@ -38,7 +38,7 @@ export default new Router({
     { path: '/home/Commercial', component: Commercial },
     { path: '/home/Prefecture', component: Prefecture },
     { path: '/home/ImageShare', component: ImageShare },
-    { path: '/home/NewChilders/:id', component: NewChilders },
+    { path: '/home/NewList/NewChilders/:id', component: NewChilders },
   ],
   linkActiveClass : 'mui-active'// 设置当前高亮样式
 })

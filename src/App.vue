@@ -5,7 +5,7 @@
     <!-- 轮播图 -->
     <transition enter-active-class='fadeOutLeft'
                 leave-active-class="fadeOutRight"
-                :duration="{ enter: 200, leave: 400 }">
+                >
       <router-view class="animated"/>
     </transition>
     <!-- 底部 -->

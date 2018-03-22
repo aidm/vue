@@ -20,8 +20,8 @@
    },
    methods:{
      New(){
-       this.$http.get('/api/getnew/').then(reulst =>{
-         console.log(99)
+       this.$http.get('api/getnew/'+ this.id).then(reulst =>{
+         console.log(reulst)
        })
      }
    }
